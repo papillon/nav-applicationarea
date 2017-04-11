@@ -1,0 +1,11 @@
+.gitattributes
+.testrunconfig
+bin
+obj
+TestResults
+.vs
+*.msi
+*.exe
+*.dll
+*.suo
+*.pdb
