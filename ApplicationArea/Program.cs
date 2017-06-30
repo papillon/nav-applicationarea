@@ -166,7 +166,7 @@ namespace Singhammer.SITE
                             string value = element.GetStringProperty(PropertyType.ApplicationArea);
                             if (set)
                             {
-                                if (value == null)
+                                if (String.IsNullOrEmpty(value))
                                 {
                                     element.SetStringProperty(PropertyType.ApplicationArea, area);
                                     objDirty = true;
