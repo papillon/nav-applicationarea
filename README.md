@@ -27,7 +27,7 @@ It is using an all-or-nothing approach, i.e. it supports either an empty Applica
 ## Example
 
 1. Export a couple of pages from the C/SIDE client to c:\temp\pages.txt
-1. Set the area to MYAREA for all controls starting at ID 1000000000
+1. Set the area to MYAREA for all controls starting at ID 1000000000<br>
 `ApplicationArea.exe c:\temp\pages.txt -set MYAREA -minId 1000000000`
 
 ## Notes on compiling from source code
