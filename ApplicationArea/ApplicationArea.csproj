@@ -35,11 +35,11 @@
   <ItemGroup>
     <Reference Include="Microsoft.Dynamics.Nav.Model, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\NavModel\Tooltip\lib\2017\Microsoft.Dynamics.Nav.Model.dll</HintPath>
+      <HintPath>lib\2017\Microsoft.Dynamics.Nav.Model.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Dynamics.Nav.Model.TypeSystem, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\NavModel\Tooltip\lib\2017\Microsoft.Dynamics.Nav.Model.TypeSystem.dll</HintPath>
+      <HintPath>lib\2017\Microsoft.Dynamics.Nav.Model.TypeSystem.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
