@@ -144,7 +144,8 @@ namespace Singhammer.SITE
                         where (element.ElementTypeInfo.ElementType == ElementType.Action && element.GetStringProperty(PropertyType.ActionType) == "Action") ||
                               (element.ElementTypeInfo.ElementType == ElementType.Control && element.GetStringProperty(PropertyType.ControlType) == "Field") ||
                               (element.ElementTypeInfo.ElementType == ElementType.Control && element.GetStringProperty(PropertyType.ControlType) == "Part") ||
-                              (element.ElementTypeInfo.ElementType == ElementType.MenuNode && element.GetStringProperty(PropertyType.MenuNodeType) == "MenuItem")
+                              (element.ElementTypeInfo.ElementType == ElementType.MenuNode && element.GetStringProperty(PropertyType.MenuNodeType) == "MenuItem" &&
+                                element.GetStringProperty(PropertyType.RunObjectType) != null)
                         select element;
 
                     // Reduce set to applicable IDs
