@@ -33,7 +33,7 @@ It is using an all-or-nothing approach, i.e. it supports either an empty Applica
 ## Notes on compiling from source code
 
 * Should compile with Visual Studio 2015 or similar
-* Several Dynamics NAV DLLs must be copied from the "RoleTailored Client" folder into the folder `lib/2017`
+* Several Dynamics NAV DLLs must be copied from the "RoleTailored Client" folder into the same folder as `ApplicationArea.exe`
   * Microsoft.Dynamics.Nav.Model.dll
   * Microsoft.Dynamics.Nav.Model.Parser.dll
   * Microsoft.Dynamics.Nav.Model.Tools.dll
