@@ -189,31 +189,6 @@ namespace Singhammer.SITE
                         catch (Exception) { }
                     }
 
-                    // Set ApplicationArea on Page and Report Objects (only if UsageCategory is set)
-                    if (obj.ElementTypeInfo.ElementType == ElementType.Page || obj.ElementTypeInfo.ElementType == ElementType.Report)
-                    {
-                        string usageCategoryText = obj.RootElement.GetStringProperty(PropertyType.UsageCategory);
-                        string applicationAreaText = obj.RootElement.GetStringProperty(PropertyType.ApplicationArea);
-                        if (set)
-                        {
-                            if (!String.IsNullOrEmpty(usageCategoryText) && String.IsNullOrEmpty(applicationAreaText))
-                            {
-                                obj.RootElement.SetStringProperty(PropertyType.ApplicationArea, area);
-                                objDirty = true;
-                                controlCount++;
-                            }
-                        }
-                        else
-                        {
-                            if (applicationAreaText == area)
-                            {
-                                obj.RootElement.ClearProperty(PropertyType.ApplicationArea);
-                                objDirty = true;
-                                controlCount++;
-                            }
-                        }
-                    }
-
                     if (objDirty)
                     {
                         dirty = true;

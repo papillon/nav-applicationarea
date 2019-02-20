@@ -1,8 +1,8 @@
 # nav-applicationarea
-A tool we use at [Singhammer IT Consulting](https://www.singhammer.com/) to change the ApplicationArea property in a batch of Dynamics NAV Objects.
+A tool we use at [Singhammer IT Consulting](https://www.singhammer.com/) to change the ApplicationArea property in a batch of Microsoft Dynamics 365 Business Central / Dynamics NAV Objects.
 
 ## General
-This small utility processes [Microsoft Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) objects and sets or resets the ApplicationArea on Actions, Fields, Parts, MenuItems, and Page and Report objects.
+This small utility processes [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/) objects and sets or resets the ApplicationArea on Actions, Fields, Parts, MenuItems, and Page and Report objects.
 
 ## Usage
 The tool can either set or reset the area. An ID range can be specified optionally.
