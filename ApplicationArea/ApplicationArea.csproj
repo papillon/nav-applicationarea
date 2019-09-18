@@ -34,13 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Dynamics.Nav.Model, Version=13.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Dynamics.Nav.Model, Version=14.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\BC13\Microsoft.Dynamics.Nav.Model.dll</HintPath>
+      <HintPath>lib\BC14\Microsoft.Dynamics.Nav.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Dynamics.Nav.Model.TypeSystem, Version=13.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="Microsoft.Dynamics.Nav.Model.TypeSystem, Version=14.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>lib\BC13\Microsoft.Dynamics.Nav.Model.TypeSystem.dll</HintPath>
+      <HintPath>lib\BC14\Microsoft.Dynamics.Nav.Model.TypeSystem.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
